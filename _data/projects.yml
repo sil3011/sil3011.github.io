@@ -3,12 +3,13 @@
   type: "Global Brand Identity & Design System"
   url: "https://www.dboxcg.com/portfolio/432_park_avenue/"
   thumbnail: "https://blog.architizer.com/wp-content/uploads/432ballet_northmorning.jpg"
-  description: "full suite of projects and deliveranles photo shoot etcfull suite of projects and deliveranles photo shoot etc ."
+  description: "full suite of projects and deliveranles photo shoot etcfull suite of projects and deliveranles photo shoot etc."
 
 - title: "The Silence of Space"
   year: "2024"
   type: "Immersive Experiential Exhibition"
   url: "https://example.com/silence-of-space"
+  thumbnail: "https://www.dboxcg.com/static/6a3f5d97c1d01b7316ac3947de9eaf11/53f2a/DBOX_MBC_Azabudai_01_Aerial_01_Overview_0a899a370a.webp"
   description: "Conceived and directed a multi-sensory gallery installation exploring minimalism and architectural acoustics in urban environments."
 
 - title: "Vogue Editorial: Neo-Minimalism"
