@@ -31,7 +31,11 @@ Creative Director with over **0000+ years of experience** building iconic brand 
 
 {% for exp in site.data.experience %}
 <div class="experience-item">
-  <span class="experience-role">{{ exp.role }} &mdash; {{ exp.company }}</span>
+  <div>
+    <span class="experience-role">{{ exp.role }}</span> 
+    <span class="experience-company">&mdash; {{ exp.company }}</span>
+    <div class="experience-meta">{{ exp.location }}</div>
+  </div>
   <span class="experience-date">{{ exp.period }}</span>
 </div>
 {% endfor %}
