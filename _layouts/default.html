@@ -26,7 +26,7 @@
     }
     h1 { font-size: 2.2rem; font-weight: 700; color: var(--accent-color); margin-bottom: 4px; letter-spacing: -0.03em; }
     h2 { font-size: 1.1rem; font-weight: 400; color: var(--text-muted); margin-top: 0; margin-bottom: 24px; }
-    h3 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 48px; margin-bottom: 24px; }
+    h3 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 48px; }
     p, li, td { font-size: 1rem; color: var(--text-color); }
     a { color: var(--accent-color); text-decoration: none; border-bottom: 1px solid var(--border-color); transition: border-color 0.2s ease, color 0.2s ease; }
     a:hover { color: var(--hover-color); border-bottom-color: var(--hover-color); }
@@ -35,13 +35,12 @@
     .project-title { font-size: 1.05rem; font-weight: 600; }
     .project-meta { font-size: 0.9rem; color: var(--text-muted); margin-top: 2px; }
     .project-desc { font-size: 0.95rem; color: var(--text-color); margin-top: 6px; opacity: 0.85; }
-    .experience-item { display: flex; justify-content: space-between; margin-bottom: 16px; }
+    .experience-item { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 18px; }
+    .experience-item > div { flex: 1; }
     .experience-role { font-weight: 500; color: var(--text-color); }
-    .experience-date { color: var(--text-muted); font-size: 0.9rem; }
     .experience-company { color: var(--text-color); }
-    .experience-meta { font-size: 0.9rem; color: var(--text-muted); margin-top: 2px; }
-
-    
+    .experience-date { color: var(--text-muted); font-size: 0.9rem; white-space: nowrap; }
+    .experience-meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 2px; }
     hr { border: none; border-top: 1px solid var(--border-color); margin: 40px 0; }
     .footer { font-size: 0.85rem; color: var(--text-muted); margin-top: 60px; border-top: 1px solid var(--border-color); padding-top: 20px; }
   </style>
