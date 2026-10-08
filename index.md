@@ -11,7 +11,7 @@ title: Silvia Sola — Art Director & Creative Leader
 ---
 
 ### About
-Creative Director with over 12+ years of experience building iconic brand identities, leading multidisciplinary design teams, and driving global creative campaigns across digital, print, and experiential design.
+I am an Architect and creative leader with 18 years in the industry, including 14+ years at DBOX, progressing from Artist to Associate Partner and leading multidisciplinary CGI and branding teams. My experience combines strategic storytelling, large-scale visual productions, and scalable creative workflows, delivering industry-leading work for globally recognised architecture, real estate, and luxury brands.
 
 ---
 
