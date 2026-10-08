@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Jane Doe — Creative Director
+title: Silvia Sola — Art Director & Creative Leader
 ---
 
-# Jane Doe
-## Creative Director & Brand Strategist
+# Silvia Sola
+## Art Director & Creative Leader
 
-[LinkedIn](https://linkedin.com/in/yourprofile) &nbsp;/&nbsp; [Email](mailto:your.email@example.com) &nbsp;/&nbsp; [Instagram](https://instagram.com/yourhandle)
+[LinkedIn](https://www.linkedin.com/in/silviasola)
 
 ---
 
