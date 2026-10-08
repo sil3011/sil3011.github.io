@@ -21,9 +21,11 @@ I am an Architect and creative leader with 18 years in the industry, including 1
 {% for project in site.data.projects %}
 <div class="project-item">
   {% if project.thumbnail %}
-  <div class="project-thumbnail">
-    <img src="{{ project.thumbnail }}" alt="{{ project.title }}" loading="lazy" class="project-thumb-image" />
-  </div>
+  <a href="{{ project.url }}" target="_blank" class="project-thumbnail-link">
+    <div class="project-thumbnail">
+      <img src="{{ project.thumbnail }}" alt="{{ project.title }}" loading="lazy" class="project-thumb-image" />
+    </div>
+  </a>
   {% endif %}
   <div class="project-content">
     <div class="project-title"><a href="{{ project.url }}" target="_blank">{{ project.title }}</a> &nbsp;({{ project.year }})</div>
