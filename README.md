@@ -3,15 +3,15 @@ layout: default
 title: Jane Doe — Creative Director
 ---
 
-# Jane Doe
-## Creative Director & Brand Strategist
+# Silvia Sola
+## Art Director & Creative Leader
 
-[LinkedIn](https://linkedin.com/in/yourprofile) &nbsp;/&nbsp; [Email](mailto:your.email@example.com) &nbsp;/&nbsp; [Instagram](https://instagram.com/yourhandle)
+[LinkedIn](https://www.linkedin.com/in/silviasola)
 
 ---
 
 ### About
-Creative Director with over 12+ years of experience building iconic brand identities, leading multidisciplinary design teams, and driving global creative campaigns across digital, print, and experiential design.
+Creative Director with over xyz+ years of experience building iconic brand identities, leading multidisciplinary design teams, and driving global creative campaigns across digital, print, and experiential design.
 
 ---
 
