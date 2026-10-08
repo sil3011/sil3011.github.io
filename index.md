@@ -18,14 +18,18 @@ I am an Architect and creative leader with 18 years in the industry, including 1
 ### Selected Projects
 
 {% for project in site.data.projects %}
-* <div class="project-title"><a href="{{ project.url }}" target="_blank">{{ project.title }}</a> &nbsp;({{ project.year }})</div>
+<div class="project-item">
   {% if project.thumbnail %}
   <div class="project-thumbnail">
     <img src="{{ project.thumbnail }}" alt="{{ project.title }}" />
   </div>
   {% endif %}
-  <div class="project-meta">{{ project.type }}</div>
-  <div class="project-desc">{{ project.description }}</div>
+  <div class="project-content">
+    <div class="project-title"><a href="{{ project.url }}" target="_blank">{{ project.title }}</a> &nbsp;({{ project.year }})</div>
+    <div class="project-meta">{{ project.type }}</div>
+    <div class="project-desc">{{ project.description }}</div>
+  </div>
+</div>
 {% endfor %}
 
 ---
