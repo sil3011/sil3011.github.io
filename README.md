@@ -27,18 +27,14 @@ Creative Director with over **0000+ years of experience** building iconic brand 
 
 ### Experience
 
+### Experience
+
+{% for exp in site.data.experience %}
 <div class="experience-item">
-  <span class="experience-role">Global Creative Director &mdash; Studio Vanguard</span>
-  <span class="experience-date">2021 – Present</span>
+  <span class="experience-role">{{ exp.role }} &mdash; {{ exp.company }}</span>
+  <span class="experience-date">{{ exp.period }}</span>
 </div>
-<div class="experience-item">
-  <span class="experience-role">Senior Art Director &mdash; Apex Creative Agency</span>
-  <span class="experience-date">2017 – 2021</span>
-</div>
-<div class="experience-item">
-  <span class="experience-role">Senior Designer &mdash; Studio Mono</span>
-  <span class="experience-date">2014 – 2017</span>
-</div>
+{% endfor %}
 
 <div class="footer">
   © 2026 Jane Doe. All rights reserved.
