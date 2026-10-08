@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jane Doe — Creative Director
+title: Silvia Sola — Art Director & Creative Leader
 ---
 
 # Silvia Sola
