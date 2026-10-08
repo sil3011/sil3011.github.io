@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg-color: #0f0f0f;
+      --text-color: #e0e0e0;
+      --text-muted: #888888;
+      --accent-color: #ffffff;
+      --border-color: #222222;
+      --hover-color: #ffffff;
+    }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      letter-spacing: -0.01em;
+    }
+    h1 { font-size: 2.2rem; font-weight: 700; color: var(--accent-color); margin-bottom: 4px; letter-spacing: -0.03em; }
+    h2 { font-size: 1.1rem; font-weight: 400; color: var(--text-muted); margin-top: 0; margin-bottom: 24px; }
+    h3 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 48px; margin-bottom: 24px; }
+    p, li, td { font-size: 1rem; color: var(--text-color); }
+    a { color: var(--accent-color); text-decoration: none; border-bottom: 1px solid var(--border-color); transition: border-color 0.2s ease, color 0.2s ease; }
+    a:hover { color: var(--hover-color); border-bottom-color: var(--hover-color); }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 24px; }
+    .project-title { font-size: 1.05rem; font-weight: 600; }
+    .project-meta { font-size: 0.9rem; color: var(--text-muted); margin-top: 2px; }
+    .experience-item { display: flex; justify-content: space-between; margin-bottom: 12px; }
+    .experience-role { font-weight: 500; }
+    .experience-date { color: var(--text-muted); font-size: 0.9rem; }
+    hr { border: none; border-top: 1px solid var(--border-color); margin: 40px 0; }
+    .footer { font-size: 0.85rem; color: var(--text-muted); margin-top: 60px; border-top: 1px solid var(--border-color); padding-top: 20px; }
+  </style>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
